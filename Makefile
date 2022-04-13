@@ -2,7 +2,7 @@ all: main
 
 main:
 	g++ -std=c++11 main.cpp -o main
-	chmod +x ./check.py
+	chmod +x ./ta/check.py
 
 test1: main
 	./main | ./ta/check.py
