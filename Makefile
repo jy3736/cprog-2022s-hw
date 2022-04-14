@@ -3,12 +3,12 @@
 all: main
 
 main:
-	g++ -std=c++11 main.cpp -o main
+	g++ -std=c++11 src/main.cpp -o src/main
 
 test1: main
-	./main | python tools/check.py
+	src/main | python tools/check.py
 	
 test: test1
 
 clean:
-	rm main
+	rm src/main
