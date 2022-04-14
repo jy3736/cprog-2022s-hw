@@ -10,7 +10,7 @@ def main():
         sys.stdout.write(line)
     result = result.strip()
     if result == expected:
-        print("Pass")
+        print("測試通過!")
         exit(0)
     print(f"Your Output : {result}")
     print(f"Expected    : {expected}")
