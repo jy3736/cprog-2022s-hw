@@ -1,4 +1,5 @@
-#! /usr/bin/python
+# 千萬不要修改 check.py!!!
+
 import sys
 
 

@@ -1,3 +1,5 @@
+# 千萬不要修改 Makefile!!!
+
 all: main
 
 main:
